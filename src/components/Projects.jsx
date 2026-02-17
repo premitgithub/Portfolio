@@ -1,22 +1,22 @@
-const projects = [
-  {
-    title: "My Portfolio",
-    desc: "Responsive portfolio using React & Tailwind with animations.",
-  },
-  {
-    title: "Animated Gaming Website",
-    desc: "Immersive UI with smooth CSS & JS animations.",
-  },
-  {
-    title: "Airbnb Clone",
-    desc: "Full-stack MERN app with authentication and bookings.",
-  },
-  {
-    title: "Grocera",
-    desc: "AI-assisted grocery ordering platform using MERN stack.",
-  },
-];
-
+// const projects = [
+//   {
+//     title: "My Portfolio",
+//     desc: "Responsive portfolio using React & Tailwind with animations.",
+//   },
+//   {
+//     title: "Animated Gaming Website",
+//     desc: "Immersive UI with smooth CSS & JS animations.",
+//   },
+//   {
+//     title: "Airbnb Clone",
+//     desc: "Full-stack MERN app with authentication and bookings.",
+//   },
+//   {
+//     title: "Grocera",
+//     desc: "AI-assisted grocery ordering platform using MERN stack.",
+//   },
+// ];
+ import { projects } from "../data/projects";
 export default function Projects() {
   return (
     <section id="projects" className="py-16 px-6">
